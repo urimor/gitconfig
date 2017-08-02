@@ -20,5 +20,6 @@
 	dc = diff --cached
 	sp = status --porcelain
 	amend = commit --amend --no-edit
+	amenda = commit --all --amend --no-edit
 [core]
 	editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
