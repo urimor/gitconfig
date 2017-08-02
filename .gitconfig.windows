@@ -25,5 +25,6 @@
 	mri = rebase -i
 	fix = commit --fixup
 	squ = commit --squash
+	arch = "!f(){ git tag archive/$1 $1; git branch -D $1;}; f"
 [core]
 	editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
